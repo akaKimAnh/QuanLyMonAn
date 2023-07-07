@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="sans-serif"
+        android:text="@string/dangnhap"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/size30sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="30dp"/>
+
+    <EditText
+        android:id="@+id/edTenDangNhapDN"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size50dp"
+        android:hint="@string/tendangnhap"
+        android:drawableLeft="@drawable/ic_baseline_person_outline_24"
+        android:drawablePadding="20dp"
+        android:padding="@dimen/size10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="10dp"
+        android:background="#30ffffff"
+        android:textColorHint="@color/colorWhite"
+        android:singleLine="true"
+        android:textColor="@color/colorWhite"
+        tools:ignore="Autofill,TextFields" />
+
+    <EditText
+        android:id="@+id/edMatKhauDN"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size50dp"
+        android:hint="@string/nhapmatkhau"
+        android:drawableLeft="@drawable/ic_baseline_info_24"
+        android:drawablePadding="20dp"
+        android:padding="@dimen/size10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="10dp"
+        android:textColorHint="@color/colorWhite"
+        android:background="#30ffffff"
+        android:singleLine="true"
+        android:textColor="@color/colorWhite"
+        android:password="true"
+        tools:ignore="Autofill,Deprecated,TextFields"/>
+
+    <CheckBox
+        android:id="@+id/ckRemember"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size50dp"
+        android:text="@string/rememberpassword"
+        android:padding="@dimen/size10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorWhite" />
+
+    <Button
+        android:id="@+id/btnDongYDN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/dongy"
+        android:background="@color/colorPrimary"
+        android:padding="@dimen/size10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="10dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorWhite"/>
+
+    <Button
+        android:id="@+id/btnDK"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chưa có tài khoản hãy đăng kí!"
+        android:background="@color/colorPrimary"
+        android:padding="@dimen/size10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="10dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorWhite"/>
+
+</LinearLayout>

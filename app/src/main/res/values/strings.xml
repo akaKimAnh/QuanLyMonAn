@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">TA FOOD</string>
+    <string name="tendangnhap">Tên đăng nhập</string>
+    <string name="nhapmatkhau">Mật khẩu</string>
+    <string name="dongy">Đồng ý</string>
+    <string name="rememberpassword">Nhớ mật khẩu</string>
+    <string name="dangky">ĐĂNG KÝ</string>
+    <string name="dangnhap">ĐĂNG NHẬP</string>
+    <string name="nhaplaimatkhau">Nhập lại mật khẩu</string>
+</resources>
